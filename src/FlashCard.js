@@ -10,7 +10,7 @@ export default function FlashCard({ flashcard }) {
       onClick={() => setFlip(!flip)}
     >
       <div className="front">
-        <img src={flashcard.question}></img>
+        <img width="200px" height="200px" src={flashcard.question}></img>
       </div>
       <div className="back">
         {flashcard.answer}
