@@ -10,18 +10,18 @@ export default function FlashCard({ flashcard }) {
       onClick={() => setFlip(!flip)}
     >
       <div className="front">
-        <img width="200px" height="200px" src={flashcard.question}></img>
+        <img src={flashcard.question} width="300px" height="525px" ></img>
       </div>
       <div className="back">
-        {flashcard.answer}
-        <div className="flashcard-options">
+        <img src={flashcard.answer} width="300px" height="525px" ></img>
+        {/* <div className="flashcard-options">
           {flashcard.options.map(option => {
-            return <div className="flashcard-option">{option}</div>
-          })}
-        </div>
+            return <div className="flashcard-option">{option}</div> */}
 
       </div>
+
     </div>
+
   )
 
 }

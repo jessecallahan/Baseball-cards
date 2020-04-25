@@ -1,27 +1,38 @@
 import React from 'react'
 import FlashCard from './FlashCard'
-import image1 from "./assets/girffey.jpg"
-import image2 from "./assets/frankthomas.jpg"
-import image3 from "./assets/s-l640.jpg"
+import image1 from "./assets/griffey.jpg"
+import image1a from "./assets/griffeyback.jpg"
+import image2 from "./assets/nolan.jpg"
+import image2a from "./assets/nolanback.jpg"
+import image3 from "./assets/tony1.jpg"
+import image3a from "./assets/tonyback.jpg"
+import image4 from "./assets/frank.jpg"
+import image4a from "./assets/frankback.jpg"
 
 const flashcards = [
   {
     id: 1,
     question: image1,
-    answer: "Ken Griffey",
-    options: ["$10,000", "Nickname - The Kid"]
+    answer: image1a
+    // options: ["$10,000", "Nickname - The Kid"]
   },
   {
     id: 2,
     question: image2,
-    answer: "Frank Thomas",
-    options: ["$8,000", "Nickname - The Big Hurt"]
+    answer: image2a,
+    // options: ["$8,000", "Nickname - The Big Hurt"]
   },
   {
-    id: 2,
+    id: 3,
     question: image3,
-    answer: "Jon Kruk",
-    options: ["$200", "Nickname - The Kruker"]
+    answer: image3a,
+    // options: ["$200", "Nickname - The Kruker"]
+  },
+  {
+    id: 4,
+    question: image4,
+    answer: image4a,
+    // options: ["$200", "Nickname - The Kruker"]
   }
 ]
 function FlashCardList() {
